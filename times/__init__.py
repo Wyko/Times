@@ -1,5 +1,17 @@
 """A small helper package for working with time intervals.
 
+Usage example::
+
+    >>> from times import THREE_MINUTES
+    >>> import time
+    >>> time.sleep(THREE_MINUTES)
+
+    >>> import times
+    >>> times.ONE_DAY
+    86400
+    >>> times.THREE_HOURS.years
+    0.00034223866072692215
+
 This package provides a single class, `Seconds`, which is a subclass of `int` that
 represents a time interval in seconds. It also provides a number of constants that
 represent common time intervals, such as `ONE_SECOND` and `ONE_DAY`.
