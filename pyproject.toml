@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytimes"
-version = "1.11.1"
+version = "1.11.2"
 description = "Descriptively reference time ranges in Python. `ONE_DAY` instead of `86400`."
 authors = ["Wyko ter Haar <wyko.ter.haar@ing.com>"]
 readme = "README.md"
