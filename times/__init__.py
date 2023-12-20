@@ -65,6 +65,7 @@ class Seconds(int):
 
         A year is defined as 365.242196 days.
         """
+
         return self / 60 / 60 / 24 / _YEAR_DAYS
 
 
