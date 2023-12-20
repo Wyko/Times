@@ -69,9 +69,11 @@ The following constants are defined in this module:
 # Requirements
 Python 3.6+
 
-
-
 # License
 MIT
 
+
+# Changelog
+## 1.11.0
+Now fully typed and compatible with mypy.
 
