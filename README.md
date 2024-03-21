@@ -74,6 +74,9 @@ MIT
 
 
 # Changelog
+## 1.12.0
+Added shorthand methods for all the time fractions, like `times.ONE_DAY.m` for `times.ONE_DAY.minutes`.
+
 ## 1.11.0
 Now fully typed and compatible with mypy.
 
