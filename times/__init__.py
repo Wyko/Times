@@ -45,22 +45,27 @@ class Seconds(int):
     @property
     def seconds(self) -> int:
         return self
+    s = seconds
 
     @property
     def minutes(self) -> float:
         return self / 60
+    m = minutes
 
     @property
     def hours(self) -> float:
         return self / 60 / 60
+    h = hours
 
     @property
     def days(self) -> float:
         return self / 60 / 60 / 24
+    d = days
 
     @property
     def weeks(self) -> float:
         return self / 60 / 60 / 24 / 7
+    w = weeks
 
     @property
     def months(self) -> float:
@@ -70,6 +75,8 @@ class Seconds(int):
         """
 
         return self / 60 / 60 / 24 / _MONTH_DAYS
+    mo = months
+
 
     @property
     def years(self) -> float:
@@ -79,7 +86,7 @@ class Seconds(int):
         """
 
         return self / 60 / 60 / 24 / _YEAR_DAYS
-
+    y = years
 
 ONE_SECOND = Seconds(1)
 ONE_MINUTE = Seconds(60)
