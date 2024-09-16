@@ -2,7 +2,7 @@
 name = "pytimes"
 version = "1.12.0"
 description = "Descriptively reference time ranges in Python. `ONE_DAY` instead of `86400`."
-authors = ["Wyko ter Haar <wyko.ter.haar@ing.com>"]
+authors = ["Wyko ter Haar <wyko.ter.haar@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "times" }]
 include = ["times/py.typed"]
